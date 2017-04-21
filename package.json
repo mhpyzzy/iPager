@@ -1,0 +1,37 @@
+{
+  "name": "ipager",
+  "version": "1.0.0",
+  "description": "the jQuery plugin for quickly build web paging!",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchscss": "gulp watchScss",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhpyzzy/iPager.git"
+  },
+  "keywords": [
+    "pager"
+  ],
+  "author": "Aron zhang email:41921926@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhpyzzy/iPager/issues"
+  },
+  "homepage": "https://github.com/mhpyzzy/iPager#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "run-sequence": "^1.2.2"
+  }
+}

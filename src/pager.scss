@@ -1,0 +1,32 @@
+
+.hide{display:none;}
+.disable{
+    background-color:#ccc;
+    color:#fff;
+    pointer-events: none;
+}
+.pager_container{
+    box-sizing: border-box;
+    font-size: 14px;
+    >ul{
+        box-sizing: border-box;
+        overflow:hidden;
+        >li{
+            float:left;
+            list-style:none;
+            padding:3px 6px;
+            box-sizing: border-box;
+            text-align: center;
+            cursor:pointer;
+            >input{
+                &[type='text']{
+                    max-width: 30px;border:1px solid #ccc;
+                }
+                &[type='button']{    
+                    background-color:#fff;
+                    padding: 0px 4px;
+                }
+            }
+        }
+    }
+}

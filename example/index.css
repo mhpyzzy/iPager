@@ -1,0 +1,13 @@
+
+*{margin:0;padding:0;}
+
+#box {
+    width: 400px;
+    height: 30px;
+    margin: 100px auto;
+}
+#box1 {
+    width: 400px;
+    height: 50px;
+    margin: 100px auto;
+}
